@@ -1,4 +1,7 @@
-#include <hex_util.h>
+#include "hex_util.h"
+
+#include <string>
+#include <vector>
 #include <sstream>
 #include <iomanip>
 #include <stdexcept>

@@ -43,6 +43,7 @@
         "variant": "cpp",
         "algorithm": "cpp",
         "iomanip": "cpp",
-        "__memory": "cpp"
+        "__memory": "cpp",
+        "iostream": "cpp"
     }
 }
