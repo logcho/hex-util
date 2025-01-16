@@ -3,7 +3,7 @@ CFLAGS = -std=c++11 -Wall
 
 # Directory where the test files are located
 TEST_DIR = tests
-SRC_DIR = src
+SRC_DIR = util
 
 # Build the test executable
 test: $(SRC_DIR)/hex_util.cpp $(TEST_DIR)/test_hex_util.cpp $(SRC_DIR)/hex_util.h
