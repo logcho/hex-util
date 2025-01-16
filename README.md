@@ -11,5 +11,5 @@ A lightweight C++ utility for converting between hex and various data types, inc
 
 ### 🔹 Clone the repository
 ```sh
-git clone https://github.com/logcho/hex-utility.git
+git clone https://github.com/logcho/hex-util.git
 cd hex-utility
