@@ -1,10 +1,14 @@
 CC = g++
 CFLAGS = -std=c++11 -Wall
 
-all: test
+# Directory where the test files are located
+TEST_DIR = tests
+SRC_DIR = .
 
-test: hex_util.cpp test_hex_util.cpp hex_util.h
-	$(CC) $(CFLAGS) -o test_hex_util hex_util.cpp test_hex_util.cpp
+# Build the test executable
+test: $(SRC_DIR)/hex_util.cpp $(TEST_DIR)/test_hex_util.cpp $(SRC_DIR)/hex_util.h
+	$(CC) $(CFLAGS) -I$(SRC_DIR) -o test_hex_util $(SRC_DIR)/hex_util.cpp $(TEST_DIR)/test_hex_util.cpp
 
+# Clean the generated files
 clean:
 	rm -f test_hex_util
