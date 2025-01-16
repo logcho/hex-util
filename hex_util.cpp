@@ -85,6 +85,7 @@ std::vector<uint16_t> hexToVectorUint16(const std::string& hexInput){
         uint16_t value = static_cast<uint16_t>(std::stoul(byteString, nullptr, 16));
         result.push_back(value);
     }
+    return result;
 }
 
 std::string vectorToHexUint32(const std::vector<uint32_t>& values){
