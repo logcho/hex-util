@@ -21,4 +21,3 @@ hex-util:
 	wget https://github.com/logcho/hex-util/releases/download/v1.0.0/hex-util-v1.0.0.tar.gz
 	tar xvf hex-util-v1.0.0.tar.gz && \
 	rm hex-util-v1.0.0.tar.gz 
-'''
