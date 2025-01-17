@@ -15,7 +15,7 @@ git clone https://github.com/logcho/hex-util.git
 cd hex-utility
 ```
 
-### Use wget
+### 🔹 Add to Makefile
 ```sh
 hex-util:
 	wget https://github.com/logcho/hex-util/releases/download/v1.0.0/hex-util-v1.0.0.tar.gz
